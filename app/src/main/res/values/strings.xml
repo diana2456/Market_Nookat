@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Ноокат маркет</string>
+    <string name="title_home">Главная</string>
+    <string name="title_dashboard">Избранные</string>
+    <string name="title_notifications">Профиль</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="channel_name" translatable="false">My Channel</string>
+    <string name="channel_description" translatable="false">Description of my channel</string>
+    <string name="title_settings">Настройки</string>
+    <string name="profile">Профиль</string>
+    <string name="no_actives">Нет активных</string>
+    <string name="no_no_actives" translatable="false">Нет не активных</string>
+    <string name="write_advertisements">Написать объявления</string>
+    <string name="selected_photos">Выбранные фото</string>
+    <string name="description">Описание</string>
+    <string name="filling_conditions">Условия заполнения</string>
+    <string name="category">Категория</string>
+    <string name="currency">Валюта</string>
+    <string name="price">Цена</string>
+    <string name="address">Адрес</string>
+    <string name="camera">Camera</string>
+    <string name="your_phone_number">Номер вашего телефона</string>
+    <string name="whatsapp_number">Номер WhatsApp</string>
+    <string name="publication_rates">Тарифы на публикацию</string>
+    <string name="star">Звезда</string>
+    <string name="_600_som">600 сом</string>
+    <string name="tariff_star">Тариф звезда</string>
+    <string name="publish">Опубликовать</string>
+    <string name="featured">Избранные</string>
+    <string name="filtration">Фильтрация</string>
+    <string name="price_min">Цена (мин.)</string>
+    <string name="price_max">Цена (макс.)</string>
+    <string name="clear">Очистить</string>
+    <string name="apply">Применить</string>
+    <string name="search">Поиск</string>
+    <string name="name">Имя</string>
+    <string name="email">email</string>
+    <string name="settings">Настройки</string>
+    <string name="languages">Языки</string>
+    <string name="notifications">Уведомления</string>
+    <string name="share">Поделиться</string>
+    <string name="about_the_application">О приложении</string>
+    <string name="application">Инструкция</string>
+    <string name="contact">Связаться</string>
+    <string name="active">Активный</string>
+    <string name="not_active">Не активный</string>
+    <string name="you_have_no_favorites" translatable="false">У вас нет избранных!</string>
+    <string name="no_not_active" translatable="false">Нет не активных</string>
+
+    <string name="facebook_app_id" translatable="false">639830468235594</string>
+    <string name="fb_login_protocol_scheme" translatable="false">fb639830468235594</string>
+    <string name="facebook_client_token" translatable="false">56789</string>
+    <string name="instruction" translatable="false">Вы можете опубликовать свое объявление, нажав кнопку «+», чтобы подать свое объявление. Ваше объявление будет загружено в приложение только после прохождения проверки модератором. Для получения дополнительной информации обращайтесь по номеру 0705205405 через WhatsApp.</string>
+    <string name="about" translatable="false">Приложение объявлений «Ноокат Маркет» — современное приложение, информирующее об объявлениях, специально подготовленное для жителей Ноокатского района. Есть много вариаций этого приложения. Улучшены функции поиска и фильтрации. Кроме того, вы можете отключить кнопку уведомлений, чтобы каждое объявление вас не беспокоило. Самое приятное то, что вы можете напрямую загрузить свое объявление и управлять им. Кроме того, для вашего удобства включено множество категорий и подкатегорий.</string>
+
+</resources>

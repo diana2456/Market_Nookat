@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="270dp"
+    android:background="@drawable/bg_item"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cv_iv"
+        android:layout_width="163dp"
+        android:layout_marginStart="12dp"
+        android:layout_height="112dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="12dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+
+        <ImageView
+            android:id="@+id/iv_photo"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/main_photo"/>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/tv_vip"
+            android:layout_width="34dp"
+            android:layout_height="25dp"
+            android:paddingEnd="5dp"
+            android:paddingStart="5dp"
+            android:gravity="center"
+            android:textAllCaps="false"
+            app:cardCornerRadius="4dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginStart="6dp"
+            android:backgroundTint="#ffc107">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="VIP"
+                android:textStyle="bold"
+                android:textColor="@color/black"/>
+        </androidx.cardview.widget.CardView>
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/tv_tittle"
+        android:layout_width="163dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="Продается шикарный особняк в европейско...sdefrgtfvdcsxcdfvgbvfdcsxdcfghnjbgfvdcsxdfvgbhnbgfvdcsxdfvgbdcfvgbvfdcsxfvgb"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        android:maxLines="4"
+        android:ellipsize="end"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/cv_iv"/>
+
+    <TextView
+        android:id="@+id/tv_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="35dp"
+        android:text="185 0000"
+        android:ellipsize="end"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:maxLines="1"
+        android:maxEms="7"
+        android:singleLine="true"
+        android:textStyle="bold"
+        android:layout_marginBottom="35dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_currency"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="42dp"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:text="доллар"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:layout_marginBottom="35dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@id/tv_price" />
+
+    <TextView
+        android:id="@+id/tv_data"
+        android:layout_width="118dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="42dp"
+        android:maxLines="1"
+        android:text="2023-09-13T06:27:31.000000Z"
+        android:textColor="@color/grey_heart"
+        android:textSize="10sp"
+        android:layout_marginBottom="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+    <ImageView
+        android:id="@+id/iv_heat"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/heart_favorite"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginBottom="30dp"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
+
+    <TextView
+        android:id="@+id/tv_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="0sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

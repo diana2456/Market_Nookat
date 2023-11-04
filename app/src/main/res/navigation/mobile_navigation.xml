@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="nook.test.market_nookat.ui.fragment.home.HomeFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/navigation_profile"
+        android:name="nook.test.market_nookat.ui.fragment.profile.ProfileFragment"
+        android:label="@string/profile"
+        tools:layout="@layout/fragment_profile" />
+    <fragment
+        android:id="@+id/navigation_settings"
+        android:name="nook.test.market_nookat.ui.fragment.settings.SettingsFragment"
+        android:label="@string/title_settings"
+        tools:layout="@layout/fragment_settings" />
+    <fragment
+        android:id="@+id/addFragment"
+        android:name="nook.test.market_nookat.ui.fragment.add.AddFragment"
+        android:label="fragment_add"
+        tools:layout="@layout/fragment_add" />
+    <fragment
+        android:id="@+id/filterFragment"
+        android:name="nook.test.market_nookat.ui.fragment.filter.FilterFragment"
+        android:label="fragment_filter"
+        tools:layout="@layout/fragment_filter" />
+
+    <fragment
+        android:id="@+id/photoFragment"
+        android:name="nook.test.market_nookat.ui.fragment.photo.PhotoFragment"
+        android:label="fragment_photo"
+        tools:layout="@layout/fragment_photo" />
+
+    <fragment
+        android:id="@+id/adsFragment"
+        android:name="nook.test.market_nookat.ui.fragment.ads.AdsFragment"
+        android:label="AdsFragment"
+        tools:layout="@layout/fragment_ads"/>
+
+    <fragment
+        android:id="@+id/navigation_dashboard"
+        android:name="nook.test.market_nookat.ui.fragment.favorite.FavFragment"
+        android:label="@string/title_dashboard"
+        tools:layout="@layout/fragment_fav" />
+    <fragment
+        android:id="@+id/editFragment"
+        android:name="nook.test.market_nookat.ui.fragment.edit.EditFragment"
+        android:label="fragment_edit"
+        tools:layout="@layout/fragment_edit" />
+    <fragment
+        android:id="@+id/adsTwoFragment"
+        android:name="nook.test.market_nookat.ui.fragment.profile.no_active.ads_two.AdsTwoFragment"
+        android:label="fragment_ads_two"
+        tools:layout="@layout/fragment_ads_two" />
+    <fragment
+        android:id="@+id/favAdsFragment"
+        android:name="nook.test.market_nookat.ui.fragment.favorite.ads.FavAdsFragment"
+        android:label="fragment_fav_ads"
+        tools:layout="@layout/fragment_fav_ads" />
+    <fragment
+        android:id="@+id/favPhotoFragment"
+        android:name="nook.test.market_nookat.ui.fragment.favorite.ads.photo.FavPhotoFragment"
+        android:label="fragment_fav_photo"
+        tools:layout="@layout/fragment_fav_photo" />
+    <fragment
+        android:id="@+id/photoAdsFragment"
+        android:name="nook.test.market_nookat.ui.fragment.profile.no_active.ads_two.photo_ads.PhotoAdsFragment"
+        android:label="fragment_photo_ads"
+        tools:layout="@layout/fragment_photo_ads" />
+    <fragment
+        android:id="@+id/aboutFragment"
+        android:name="nook.test.market_nookat.ui.fragment.settings.about.AboutFragment"
+        android:label="fragment_about"
+        tools:layout="@layout/fragment_about" />
+    <fragment
+        android:id="@+id/instructionsFragment"
+        android:name="nook.test.market_nookat.ui.fragment.settings.instructions.InstructionsFragment"
+        android:label="fragment_instructions"
+        tools:layout="@layout/fragment_instructions" />
+    <fragment
+        android:id="@+id/photoActiveFragment"
+        android:name="nook.test.market_nookat.ui.fragment.profile.active.ads_active.photo_ads.PhotoActiveFragment"
+        android:label="fragment_photo_active"
+        tools:layout="@layout/fragment_photo_active" />
+    <fragment
+        android:id="@+id/adsActiveFragment"
+        android:name="nook.test.market_nookat.ui.fragment.profile.active.ads_active.AdsActiveFragment"
+        android:label="fragment_ads_active"
+        tools:layout="@layout/fragment_ads_active" />
+    <fragment
+        android:id="@+id/editActiveFragment"
+        android:name="nook.test.market_nookat.ui.fragment.profile.active.edit.EditActiveFragment"
+        android:label="fragment_edit_active"
+        tools:layout="@layout/fragment_edit_active" />
+    <fragment
+        android:id="@+id/photoNotifiFragment"
+        android:name="nook.test.market_nookat.ui.fragment.settings.ads.photo.PhotoNotifiFragment"
+        android:label="fragment_photo_notifi"
+        tools:layout="@layout/fragment_photo_notifi" />
+
+    <fragment
+        android:id="@+id/adsFireFragment"
+        android:name="nook.test.market_nookat.ui.fragment.settings.ads.notifi.AdsFireFragment"
+        android:label="fragment_ads_fire"
+        tools:layout="@layout/fragment_ads_fire">
+    </fragment>
+    <fragment
+        android:id="@+id/adsSerFragment"
+        android:name="nook.test.market_nookat.ui.fragment.settings.ads.AdsSerFragment"
+        android:label="fragment_ads_ser"
+        tools:layout="@layout/fragment_ads_ser" />
+
+</navigation>

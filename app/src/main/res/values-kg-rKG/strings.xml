@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Ноокат маркет</string>
+    <string name="title_home">Башкы бет</string>
+    <string name="title_dashboard">Өзгөчөлөнгөн</string>
+    <string name="title_notifications">Профиль</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="title_settings">Орнотуулар</string>
+    <string name="profile">Профиль</string>
+    <string name="no_actives">Активдүлөр жок</string>
+    <string name="no_no_actives" translatable="false">Активдү эместер жок</string>
+    <string name="write_advertisements">Жарнамаларды жазыңыз</string>
+    <string name="selected_photos">Тандалган сүрөттөр</string>
+    <string name="description">Сүрөттөмө</string>
+    <string name="filling_conditions">Толтуруу шарттары</string>
+    <string name="category">Категория</string>
+    <string name="currency">Валюта</string>
+    <string name="price">Баасы</string>
+    <string name="address">Дарек</string>
+    <string name="your_phone_number">Сиздин телефон номериңиз</string>
+    <string name="whatsapp_number">Ватсап номери</string>
+    <string name="publication_rates">Жарыялоо тарифтери</string>
+    <string name="star">Жылдыз</string>
+    <string name="_600_som">600 сом</string>
+    <string name="tariff_star">Тариф жылдызы</string>
+    <string name="publish">Жарыялоо</string>
+    <string name="featured">Өзгөчөлөнгөн</string>
+    <string name="filtration">Фильтрация</string>
+    <string name="price_min">Баасы (мин.)</string>
+    <string name="price_max">Баасы (максималдуу)</string>
+    <string name="clear">Тазало</string>
+    <string name="apply">Колдонуу</string>
+    <string name="search">Издөө</string>
+    <string name="name">Аты</string>
+    <string name="email">email</string>
+    <string name="settings">Орнотуулар</string>
+    <string name="languages">Тилдер</string>
+    <string name="notifications">Эскертмелер</string>
+    <string name="share">Бөлүшүү</string>
+    <string name="about_the_application">Колдонмо жөнүндө</string>
+    <string name="application">Колдонмо</string>
+    <string name="contact">Байланыш</string>
+    <string name="active">Активдүү</string>
+    <string name="not_active">Активдүү эмес</string>
+    <string name="you_have_no_favorites" translatable="false">Сүйүктүүлөрүң жок!</string>
+    <string name="no_not_active" translatable="false">Активдүлөр жок!</string>
+    <string name="instruction" translatable="false">Жарыяңызды берүү үчүн "+" баскычты басып, өзүңүз жарыяласаңыз болот. Модератодун текшерүүсүнөн өткөндөн кийин гана сиздин жарыяныз тиркемеге жүктөлөт. Кошумча маалымат алуу үчүн WhtasApp аркылу 0705205405 номерине кайрылыныздар.</string>
+    <string name="about" translatable="false">"Ноокат Маркет" жарыялар тиркемеси - Ноокат районунун тургундары үчүн атайын даярдалган, жарыялардан кабар кылып туруучу заманбап тиркеме. Бул тиркемеде өтө көп өзгөчүлүктөр бар. Издөө жана фильтр функциялары жакшырды. Андан башка Ар бир жарыя сизге келип, тынчыңызды албоосу үчүн уведомление баскычын өчүрүп койсонуз болот. Баарынан да сиз өзүнүздүн жарыяңызды түздөн-түз жүктөй аласыз жана өзүнүздүн жарыяңызды башкара аласыз. Ошодой эле ыңгайлуулук  үчүн көптөгөн категориялар, подкатегориялар камтылды.</string>
+</resources>

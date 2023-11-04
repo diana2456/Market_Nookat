@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "872442566419",
+    "project_id": "market-nookat-bdb68",
+    "storage_bucket": "market-nookat-bdb68.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:872442566419:android:23790e0856811232022ce6",
+        "android_client_info": {
+          "package_name": "nook.test.market_nookat"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-s0qNex1nj-y-tyiylUhJm7dDx0M3q6o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
